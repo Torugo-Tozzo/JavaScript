@@ -11,3 +11,9 @@
 //var nomi = prompt("what u name?");
 //nomi = nomi.slice(0,1).toUpperCase() + nomi.slice(1,nomi.length).toLowerCase();
 //alert(nomi);
+
+//converter sua idade para a de um cachorro
+
+//var dogage = prompt("whats ur dog age?");
+//var humanage = ((dogage - 2)*4)+ 21;
+//alert("the human age of ur dog is " + humanage);
