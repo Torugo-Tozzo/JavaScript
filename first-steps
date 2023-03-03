@@ -17,3 +17,41 @@
 //var dogage = prompt("whats ur dog age?");
 //var humanage = ((dogage - 2)*4)+ 21;
 //alert("the human age of ur dog is " + humanage);
+
+//função de comprar leite
+
+//function getMilk(money) {   
+//  console.log("leaveHouse");
+//  console.log("moveRight");
+//  console.log("moveRight");
+//  console.log("moveUp");
+//  console.log("moveUp");
+//  console.log("moveUp");
+//  console.log("moveUp");
+//  console.log("moveRight");
+//  console.log("moveRight");
+//  console.log("buy "+ Math.floor(money/1.5) + " bottles of milk");
+//  console.log("moveLeft");
+//  console.log("moveLeft");
+//  console.log("moveDown");
+//  console.log("moveDown");
+//  console.log("moveDown");
+//  console.log("moveDown");
+//  console.log("moveLeft");
+//  console.log("moveLeft");
+//  console.log("enterHouse");
+//} 
+
+//funcao anos restantes ate os 90 em dias semanas e meses 
+
+//function lifeInWeeks(age) {
+//    
+//    var anos = 90 - age;
+//    var meses = anos*12;
+//    var dias = anos*365;
+//    var semanas = Math.floor(dias/7);
+//    
+//    console.log("You have "+ dias + " days, "+ semanas + " weeks, and "+ meses + " months left.")
+//}
+//
+//lifeInWeeks(21);
