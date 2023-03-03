@@ -1,0 +1,13 @@
+//Contador de caraacteres twiter
+
+//var twit = prompt("Escreva seu twit:");
+//var contador  = twit.length;
+//alert("vc escreveu " + contador + " caracteres, restam " + (140 - contador));
+//var postar = twit.slice(0,140);
+//alert(postar);
+
+//colocar primeira letra de um nome apenas ela em  maiusculo
+
+//var nomi = prompt("what u name?");
+//nomi = nomi.slice(0,1).toUpperCase() + nomi.slice(1,nomi.length).toLowerCase();
+//alert(nomi);
