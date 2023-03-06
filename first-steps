@@ -55,3 +55,50 @@
 //}
 //
 //lifeInWeeks(21);
+
+//function bmiCalculator(peso, altura) {
+//    var bmi = peso/(altura*altura);
+//    return bmi;
+//  }
+//  
+//  //prompt("what is ur name?");
+//  //prompt("what is thei r name?");
+//  
+//  var numero = Math.random()*100;;
+//  numero = Math.floor(numero);
+//  
+//  if(numero > 90){
+//    alert("a porcentagem de amor entre esses dois é pra casar: " + numero + " %.");  
+//  }else if(numero > 60 && numero < 90){
+//    alert("a porcentagem de amor entre esses dois é alta: " + numero + " %.");
+//  }else
+//    alert("a porcentagem de amor entre esses dois é: " + numero + " %.");
+//    
+//  function bmiCalculator (weight, height) {
+//  var num = weight/(height*height);
+//  if(num < 18.5){
+//      interpretation = "Your BMI is <bmi>, so you have a normal weight.";
+//  }else if(num > 18.5 && num < 24.9){
+//      interpretation = "Your BMI is <bmi>, so you have a normal weight.";
+//  }else
+//      interpretation = "Your BMI is <bmi>, so you are overweight.";
+//  
+//      return interpretation;
+//  }
+//  
+//  
+//  function isLeap(year) {
+//    
+//  if(year%4 == 0){
+//      if(year%100 == 0){
+//          if(year%400 == 0){
+//              return "Leap year.";
+//          }
+//      return "Not Leap year.";
+//      }
+//    return "Leap year.";
+//  }else   
+//      return "Not leap year.";
+//  }
+//  
+//  var ano = isLeap(2024);
