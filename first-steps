@@ -134,3 +134,19 @@
 //}
 //
 //whosPaying(["Angela", "Ben", "Jenny", "Michael", "Chloe"]);
+
+//function fibonacciGenerator (n) {
+//    var fibo = []
+//    for(var i = 1; i <= n; i++){
+//      if(i == 1){
+//        fibo.push(0);
+//      }else if(i == 2){
+//        fibo.push(1);
+//      }else{
+//        fibo.push(fibo[fibo.length - 2] + fibo[fibo.length - 1])
+//      }
+//    }
+//    return fibo;
+//    //console.log(fibo);
+//  }
+  
