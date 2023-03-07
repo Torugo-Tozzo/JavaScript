@@ -120,3 +120,17 @@
 //  }
 //  count++;
 //}
+
+//function whosPaying(names) {
+//    
+///******Don't change the code above*******/
+//    
+//    //Write your code here.
+//var tam = names.length;
+//var selected = names[Math.floor(Math.random() * tam)];
+//
+//return selected;
+///******Don't change the code below*******/    
+//}
+//
+//whosPaying(["Angela", "Ben", "Jenny", "Michael", "Chloe"]);
