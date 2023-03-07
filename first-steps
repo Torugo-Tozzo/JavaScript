@@ -102,3 +102,21 @@
 //  }
 //  
 //  var ano = isLeap(2024);
+
+//FIZZBUZZ
+
+//var vetor = [];
+//var count = 1;
+//
+//function fizzbuzz() {
+//  if(count % 3 == 0 && count % 5 == 0){
+//    vetor.push("fizzbuzz");
+//  }else if(count % 3 == 0){
+//    vetor.push("fizz");
+//  }else if(count % 5 == 0){
+//    vetor.push("buzz");
+//  }else{
+//    vetor.push(count);
+//  }
+//  count++;
+//}
