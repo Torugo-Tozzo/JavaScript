@@ -3,12 +3,18 @@ for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
 
         var botao = this.innerHTML;
+
         bateTambor(botao);
+    
+        animacaoBotao(botao);
     });
 }
 
 document.addEventListener("keydown", function (botao) {
+
     bateTambor(botao.key);
+
+    animacaoBotao(botao.key);
 })
 
 function bateTambor(botao) {
@@ -49,4 +55,13 @@ function bateTambor(botao) {
         default:
         //break;
     }
+}
+
+function animacaoBotao(botaoApertado){
+
+    var botaoAtivo = document.querySelector("."+botaoApertado);
+    botaoAtivo.classList.add("pressed");
+    setTimeout(function(){
+        botaoAtivo.classList.remove("pressed");
+    }, 100);
 }
